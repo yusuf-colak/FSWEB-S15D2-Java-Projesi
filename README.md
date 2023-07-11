@@ -9,7 +9,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 
 ### Hedeflerimiz:
 
-### Set Challenge
+### 1-)Set Challenge
 
  * İki tane sınıfımız olucak. ```Task``` ve ```TaskData```
  * ```Task``` sınıfı içerisinde 5 tane ```instance variable``` olmalı. ```project``` => string ```description``` => string ```assignee``` => string
@@ -38,7 +38,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 * ```getIntersect()``` metodu iki tane set alır ve aralarındaki kesişim kümesini bulup döner.
 * ```getDifference()``` metodu iki tane set alır ve ikinci set içerisindeki verileri ilk set içerisindeki verilerden çıkarır.
 
-### Theatre Challenge
+### 2-)Theatre Challenge
 
 * Bu örnekte bir Tiyatro salonu dizayn edeceğiz. içersinde koltuklar kümesi olacak. ```Set<Seat>```
 * ```Theatre``` isimli bir sınıf oluşturunuz. ```Seat``` isimli bir sınıf oluşturunuz.
