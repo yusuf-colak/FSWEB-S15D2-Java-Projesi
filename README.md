@@ -25,7 +25,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 * Ann, Bob, Carol 3'ü de senin çalışanların.
 * Üç yazılımcı da farklı task sahipleri.
 * Siz bütün yazılımcılara ellerindeki taskları yollamalarını istediniz.
-* Seninde kendi taskların var. Bunlar bir ```set``` içerisinde tutalabilir. Sende bu taskları kendi müdürüne raporluyorsun.
+* Seninde kendi taskların var. Bunlar bir ```set``` içerisinde tutulabilir. Sende bu taskları kendi müdürüne raporluyorsun.
 
  Müdürüne şu soruların cevabını verebilmelisin:
 * Senin ve tüm çalışanlarının üzerindeki tasklar nelerdir ?
