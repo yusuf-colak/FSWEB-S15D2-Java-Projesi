@@ -15,7 +15,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  * ```Task``` sınıfı içerisinde 5 tane ```instance variable``` olmalı. ```project``` => string ```description``` => string ```assignee``` => string
  * ```priority``` Priority şeklinde bir Enum tipinde olmalı. Priority{HIGH, MED, LOW} şeklinde oluşturabilirsiniz.
  * ```status``` Status şeklinde bir Enum tipinde olmalı. Status{IN_QUEUE, ASSIGNED, IN_PROGRESS} şeklinde oluşturabilirsiniz.
- * Task sınıfı ```Comparable``` implement etmelidir. Task'ın eşsizliğini ```project``` ve ```description``` değerleri birlikte belirler.
+ * Task'ın eşsizliğini ```project``` ve ```description``` değerleri birlikte belirler.
  * TaskData sınıfı 3 tane değişkene sahip olmalı ```tasks``` => String, ```annsTasks``` => String, ```bobsTasks``` => String, ```carolsTasks``` => String
  * TaskData sınıfı ```getTasks()``` adlı bir metoda sahip olmalı. method parametre olarak bir String almalı. Bu 4 değerden herhangi birini alabilir. ("ann", "bob", "carol", "all") Metodun dönüş değeri ```Set<Task>``` olmalı.
  
