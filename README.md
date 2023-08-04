@@ -38,16 +38,3 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 * ```getIntersect()``` metodu iki tane set alır ve aralarındaki kesişim kümesini bulup döner.
 * ```getDifference()``` metodu iki tane set alır ve ikinci set içerisindeki verileri ilk set içerisindeki verilerden çıkarır.
 
-### 2-)Theatre Challenge
-
-* Bu örnekte bir Tiyatro salonu dizayn edeceğiz. içersinde koltuklar kümesi olacak. ```Set<Seat>```
-* ```Theatre``` isimli bir sınıf oluşturunuz. ```Seat``` isimli bir sınıf oluşturunuz.
-* ```Seat``` sınıfının 3 değişkeni olmalı. ```row``` => char ```seat_no``` => int. Koltuklar şu şekilde gösterilmeli 'A005','B102','A012'. ```is_reserved``` => boolean
-* Tiyatro sınıfında üç alan, tiyatro adı, sıradaki koltuklar için bir tamsayı, bir başka deyişle tek sırada kaç koltuk var ve koltukların kendileri için bir alan olmalıdır.
-* Son alan ```TreeSet``` olarak tanımlanmalı.
-* ```Theatre``` sınıfı kullanılarak bir instance oluşturulmak istenirse, tiyatro adı, tiyatrodaki sıra sayısı ve tiyatrodaki toplam koltuk sayısı birlikte kullanılarak oluşturulmalıdır.
-* Basit olması için, her sırada aynı sayıda koltuk olduğunu ve sıra sayısının asla 26'yı geçmemesi gerektiğini varsayalım, bu nedenle sıralar A'dan Z'ye kadar etiketlenecektir.
-
-* Bir tiyatro sınıfının oluştrulması esnasında koltukları oluşturmalı ve numaralandırmalısınız.
-* ```Theatre``` sınıfı içerisinde ```printSeatMap``` isimli bir metod yazmalıyız. her koltuğu ayrı bir satıra yazdırmalı.
-* Bir rezervasyon acentesinin tek bir koltuk ayırmasına izin vermelisiniz. Daha sonra ```printSeatMap```metodu ile hangi koltukların rezerve olduğunu göstermelisiniz.
