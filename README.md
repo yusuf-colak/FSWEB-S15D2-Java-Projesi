@@ -30,7 +30,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  Müdürüne şu soruların cevabını verebilmelisin:
 * Senin ve tüm çalışanlarının üzerindeki tasklar nelerdir ?
 * Her bir çalışanın üzerindeki tasklar nelerdir ?
-* Herhangi bir çalışana atanması yapılmamış olan tasklar nelerdir ?
+* Herhangi bir çalışana atanması yapılmamış olan tasklar nelerdir ? (Task içerisindeki assignee fieldi kullanılabilir.)
 * Birden fazla çalışana atanmış task var mı ? Varsa bunlar hangileri ?
 
 * Bu görevleri yapabilmek aşağıdaki metodları yazmalısın
