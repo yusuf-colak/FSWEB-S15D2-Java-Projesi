@@ -16,7 +16,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  * ```priority``` Priority şeklinde bir Enum tipinde olmalı. Priority{HIGH, MED, LOW} şeklinde oluşturabilirsiniz.
  * ```status``` Status şeklinde bir Enum tipinde olmalı. Status{IN_QUEUE, ASSIGNED, IN_PROGRESS} şeklinde oluşturabilirsiniz.
  * Task'ın eşsizliğini ```project``` ve ```description``` değerleri birlikte belirler.
- * TaskData sınıfı 3 tane değişkene sahip olmalı  ```annsTasks``` => Set<Task>, ```bobsTasks``` =>  Set<Task>, ```carolsTasks``` =>  Set<Task>
+ * TaskData sınıfı 3 tane değişkene sahip olmalı  ```annsTasks Set<Task>``` =>  ```bobsTasks =>  Set<Task>```  ```carolsTasks =>  Set<Task>``` 
  * TaskData sınıfı ```getTasks()``` adlı bir metoda sahip olmalı. method parametre olarak bir String almalı. Bu 4 değerden herhangi birini alabilir. ("ann", "bob", "carol", "all") Metodun dönüş değeri ```Set<Task>``` olmalı.
  
 ### Senaryo
